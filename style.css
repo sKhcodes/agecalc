@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* Now 10px = 1rem! */
+  }
+  
+  body {
+    font-size: 16px; /* px fallback */
+    font-size: 1.6rem; /* default font-size for document */
+    line-height: 1.5; /* a nice line-height */
+  }
+
+.container{
+    background-color: #E6C229;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titlebox{
+    height: 30rem;
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #3D3B30;
+    font-family: 'Sanchez', serif;
+}
+.titlebox__text{
+    font-size: 3rem;
+}
+
+.titlebox__icon{
+
+    font-size: 10rem;
+}
+.age{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.age__form {
+    color: #3D3B30;
+}
+input{
+    border-radius: 5px;
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+    margin: 2rem;
+}
+.btn{
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    margin-top: 5rem;
+    border-radius: 5px;
+    background-color:#4D5061;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    font-family: 'Roboto', sans-serif;
+}
+    button:hover,
+button:focus {
+    background:#5C80BC
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+    font-family: 'Roboto', sans-serif;
+}
+.share{
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+}
