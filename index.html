@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="main.js"></script>
+    
     <link rel="stylesheet" href="style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Sanchez" rel="stylesheet">
@@ -12,22 +12,21 @@
 </head>
 <body>
     <div class="container">
-        container
+     
         <header class="titlebox">
                 <span class="titlebox__icon"> <i class="fas fa-birthday-cake"></i></span>
             <h1 class="titlebox__text">The Age Calculator</h1>
         </header>
         <main class="main">
             <div class="age">
-                    <form action="" class="age__form">
+                    <form action="#" name = "age__form" class="age__form">
                          <label for="birthday">Your Birthday</label>
                         <input type="date" name="birthday" id="birthday">
-                        <label for="birth-time">Time of birth</label>
-                        <input type="time" name="birth-time" id="birth-time">
                     </form>
                     <button class="btn">Submit</button>
+                    <p class="result">Congratulations!  You are <span>X</span> days old!</p>
             </div>
-            
+           
             <div class="share"> 
                 <span class="share__icon"> <i class="fab fa-facebook-square"></i></span>
                 <span class="share__icon"> <i class="fab fa-twitter-square"></i></span>
@@ -38,6 +37,6 @@
 
         </main>
     </div>
-    
+    <script src="main.js"></script> 
 </body>
 </html>
