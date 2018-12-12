@@ -11,7 +11,7 @@ function showResult(days) {
 
 function showBirthday() {
     var birthday = new Date(document.forms["age__form"]["birthday"].value);
-    console.log((new Date()) - (new Date(birthday)));
+    console.log(new Date() - birthday);
     var seconds = 1000;
     var mins = 60;
     var hours = 60;
